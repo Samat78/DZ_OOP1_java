@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Муж Ирины");
         System.out.println(new Research(gt).spend(irina, Relationship.vife));
 
-        // Ижем людей определенного возраста
+        // Ищем людей определенного возраста
         System.out.println(new Research(gt).searchAge());
     }
 }
