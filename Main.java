@@ -24,7 +24,7 @@ public class Main {
         gt.appendPerentChild(igor, Sasha); // Игорь родитель Саши
         gt.appendPerentChild(igor, Sasha10); // Игорь родитель Саши
         gt.appendPerentChild(igor, Sasha11); // Игорь родитель Саши
-        gt.appendPerentChild(igor, Sasha3); // Игорь родитель Саши
+        gt.appendPerentChild(igor, Sasha3); // Игорь родитель Саши        
 
         // Ищем детей Ирины
         System.out.println("Дети Ирины");
