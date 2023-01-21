@@ -1,4 +1,4 @@
-package jv.dz1;
+package OOP1.JavaOOP1;
 
 public enum Relationship {
     parent,

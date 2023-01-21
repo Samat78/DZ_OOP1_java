@@ -1,5 +1,4 @@
-package jv.dz1;
-
+package OOP1.JavaOOP1;
 public class Node {
     public Node(Person p1, Relationship re, Person p2) {
         this.p1 = p1;

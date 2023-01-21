@@ -1,5 +1,4 @@
-package jv.dz1;
-
+package OOP1.JavaOOP1;
 public class Person {
     public String fullName;
     public int age;

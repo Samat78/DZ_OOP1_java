@@ -1,4 +1,4 @@
-package jv.dz1;
+package OOP1.JavaOOP1;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +8,7 @@ public class Main {
         Person masha = new Person("Маша", 27);
         Person jane = new Person("Женя", 10);
         Person ivan = new Person("Ваня", 8);
+        Person Sasha = new Person("Саша", 9);
         GeoTree gt = new GeoTree();
         gt.appendPerentChild(irina, vasya); // Ирина родитель Васи
         gt.appendPerentChild(irina, masha); // Ирина родитель Маши
@@ -16,6 +17,7 @@ public class Main {
         gt.appendVifeHusbent(irina, igor); // Ирина жена Игоря
         gt.appendPerentChild(igor, vasya); // Игорь родитель Васи
         gt.appendPerentChild(igor, masha); // Игорь родитель Маши
+        gt.appendPerentChild(igor, Sasha); // Игорь родитель Саши
 
         // Ищем детей Ирины
         System.out.println("Дети Ирины");
