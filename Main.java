@@ -9,6 +9,10 @@ public class Main {
         Person jane = new Person("Женя", 10);
         Person ivan = new Person("Ваня", 8);
         Person Sasha = new Person("Саша", 9);
+        Person Sasha10 = new Person("Саша", 10);
+        Person Sasha11 = new Person("Саша", 11);
+        Person Sasha12 = new Person("Саша", 12);
+        Person Sasha3 = new Person("Саша", 3);
         GeoTree gt = new GeoTree();
         gt.appendPerentChild(irina, vasya); // Ирина родитель Васи
         gt.appendPerentChild(irina, masha); // Ирина родитель Маши
@@ -18,6 +22,9 @@ public class Main {
         gt.appendPerentChild(igor, vasya); // Игорь родитель Васи
         gt.appendPerentChild(igor, masha); // Игорь родитель Маши
         gt.appendPerentChild(igor, Sasha); // Игорь родитель Саши
+        gt.appendPerentChild(igor, Sasha10); // Игорь родитель Саши
+        gt.appendPerentChild(igor, Sasha11); // Игорь родитель Саши
+        gt.appendPerentChild(igor, Sasha3); // Игорь родитель Саши
 
         // Ищем детей Ирины
         System.out.println("Дети Ирины");
